@@ -22,7 +22,7 @@ class Program
             
             int magicNumber = random.Next(1, 101);
             int guess = -1; // Initialize to an invalid guess
-            int attempts = 0; // Track number of guesses
+            int attempts = 0; // Track the number of guesses
 
             Console.WriteLine("I have picked a magic number between 1 and 100. Can you guess it?");
             
@@ -47,7 +47,7 @@ class Program
                 }
             }
 
-            // Ask the user if they want to play again
+            // Ask user if they want to play again
             Console.Write("Do you want to play again? (yes/no): ");
             playAgain = Console.ReadLine();
         }

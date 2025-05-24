@@ -79,7 +79,7 @@ class Program
         // Display the letter grade with the sign
         Console.WriteLine($"Your grade is: {letter}{sign}");
 
-        // Checking if user passed or failed
+        // Check if user passed or failed
         if (percentage >= 70)
         {
             Console.WriteLine("Congratulations, you passed!");
