@@ -33,7 +33,8 @@ public class Journal
         "What was the best part of my day?",
         "How did I see the hand of the Lord in my life today?",
         "What was the strongest emotion I felt today?",
-        "If I had one thing I could do over today, what would it be?"
+        "If I had one thing I could do over today, what would it be?",
+        "How motivated did you feel today?"
     };
 
     public void AddEntry()
@@ -110,7 +111,7 @@ public class Journal
     }
 }
 
-// Program class to run the application
+// Program class
 public class Program
 {
     public static void Main(string[] args)
