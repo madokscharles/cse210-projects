@@ -10,7 +10,7 @@ class Program
 }
 */
 
-// C# Programming Exercise 1—Variables, Input, and Output
+// C# Programming Exercise 1 Variables, Input, and Output
 class Program
 {
     static void Main(string[] args)
