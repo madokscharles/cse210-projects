@@ -24,7 +24,7 @@ class Program
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
 
-        // Display resume details
+        // Displaying resume details
         myResume.Display();
     }
 }
