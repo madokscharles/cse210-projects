@@ -11,7 +11,7 @@ class Program
             Console.WriteLine("\nMenu Options:");
             Console.WriteLine();
             Console.WriteLine("1. Start breathing activity");
-            Console.WriteLine("2. Start refleting activity");
+            Console.WriteLine("2. Start reflecting activity");
             Console.WriteLine("3. Start listing activity");
             Console.WriteLine("4. Quit");
             Console.WriteLine();

@@ -4,7 +4,7 @@ using System.Security.AccessControl;
 public class Activity
 {
     private string _name;
-    private string _descripton;
+    private string _description;
     private int _duration;
 
     public void SetName(string name)
@@ -12,9 +12,9 @@ public class Activity
         _name = name;
     }
 
-    public void SetDescripton(string descripton)
+    public void SetDescription(string description)
     {
-        _descripton = descripton;
+        _description = description;
     }
 
     public void SetDuration(int duration)
@@ -27,9 +27,9 @@ public class Activity
         return _name;
     }
 
-    public string GetDescripton()
+    public string Getdescription()
     {
-        return _descripton;
+        return _description;
     }
 
     public int GetDuration()
@@ -42,7 +42,7 @@ public class Activity
     {
         Console.Clear();
         Console.Write($"Welcome to the {_name}.\n");
-        Console.WriteLine($"{_descripton}");
+        Console.WriteLine($"{_description}");
         Console.WriteLine();
     }
 

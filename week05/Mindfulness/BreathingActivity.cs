@@ -6,7 +6,7 @@ public class BreathingActivity:Activity
     public BreathingActivity() : base()
     {
         SetName("Breathing Activity");
-        SetDescripton(
+        SetDescription(
             "\nThis activity will help you relax by walking your " +
             "through breathing in and out slowly. \n" +
             "Clear your mind and focus on your breathing."
