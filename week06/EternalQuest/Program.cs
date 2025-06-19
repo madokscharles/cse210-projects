@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager goalmanager = new GoalManager();
+        goalmanager.Start();
     }
+    
+    // Creativity: I added randomized motivational quotes after completing a goal.
+    // These messages will help sustain positive reinforcement and user engagement.
 }
